@@ -2,7 +2,7 @@ package pro.crvt.model.configure;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import pro.crvt.model.Contact;
+import pro.crvt.model.entities.Contact;
 import java.io.File;
 import java.io.IOException;
 
@@ -31,8 +31,7 @@ public class Configuration {
             node = MAPPER.readTree(json);
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            return node;
         }
+        return node;
     }
 }

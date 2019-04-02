@@ -3,7 +3,7 @@ package pro.crvt.model.parser.text;
 import com.auxilii.msgparser.Message;
 import com.auxilii.msgparser.MsgParser;
 import org.springframework.web.multipart.MultipartFile;
-import pro.crvt.model.Contact;
+import pro.crvt.model.entities.Contact;
 import pro.crvt.model.parser.BaseParser;
 import java.io.IOException;
 import java.util.regex.Matcher;

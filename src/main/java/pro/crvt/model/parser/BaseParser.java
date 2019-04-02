@@ -1,6 +1,6 @@
 package pro.crvt.model.parser;
 
-import pro.crvt.model.Contact;
+import pro.crvt.model.entities.Contact;
 
 /**
  * abstract class BaseParser

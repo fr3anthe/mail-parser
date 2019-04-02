@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import pro.crvt.model.Contact;
+import pro.crvt.model.entities.Contact;
 import pro.crvt.model.error.UnsupportedMediaTypeException;
 import pro.crvt.model.parser.ParserFactory;
 

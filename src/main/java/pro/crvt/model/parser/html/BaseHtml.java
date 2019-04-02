@@ -4,7 +4,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.springframework.web.multipart.MultipartFile;
-import pro.crvt.model.Contact;
+import pro.crvt.model.entities.Contact;
 import pro.crvt.model.parser.BaseParser;
 import java.io.IOException;
 import java.util.HashMap;

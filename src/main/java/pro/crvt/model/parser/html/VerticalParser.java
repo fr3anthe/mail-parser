@@ -3,7 +3,7 @@ package pro.crvt.model.parser.html;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.web.multipart.MultipartFile;
-import pro.crvt.model.Contact;
+import pro.crvt.model.entities.Contact;
 import pro.crvt.model.error.UnsupportedMediaTypeException;
 
 /**

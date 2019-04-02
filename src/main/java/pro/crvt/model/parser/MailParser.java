@@ -1,7 +1,7 @@
 package pro.crvt.model.parser;
 
 import org.springframework.web.multipart.MultipartFile;
-import pro.crvt.model.Contact;
+import pro.crvt.model.entities.Contact;
 
 /**
  * Interface MailParser.

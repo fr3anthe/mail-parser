@@ -1,20 +1,23 @@
 {  
-   "1":{  
-      "email":"E-mail адрес",
-      "name":"Контактное лицо",
-      "number":"Номер телефона",
-      "company":"ЮЛ"
+   "1": {
+      "parserType": "horyzontal",
+      "email": "E-mail адрес",
+      "name": "Контактное лицо",
+      "number": "Номер телефона",
+      "company": "ЮЛ"
    },
-   "2":{  
-      "email":"Email",
-      "name":"ФИО",
-      "number":"Телефон",
-      "company":"ЮЛ"
+   "2": {
+      "parserType": "vertical",
+      "email": "Email",
+      "name": "ФИО",
+      "number": "Телефон",
+      "company": "ЮЛ"
    },
-   "3":{  
-      "email":"Контактный e-mail",
-      "name":"Ф.И.О. контактного лица",
-      "number":"Контактный номер клиента",
-      "company":"Название организации"
+   "3": {
+      "parserType": "text",
+      "email": "Контактный e-mail",
+      "name": "Ф.И.О. контактного лица",
+      "number": "Контактный номер клиента",
+      "company": "Название организации"
    }
 }

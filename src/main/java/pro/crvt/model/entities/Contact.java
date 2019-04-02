@@ -1,8 +1,13 @@
-package pro.crvt.model;
+package pro.crvt.model.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import java.io.Serializable;
 
+
 public class Contact implements Serializable {
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    private String parserType;
     private String company;
     private String name;
     private String number;
@@ -68,6 +73,7 @@ public class Contact implements Serializable {
         this.company = company;
     }
 
+
     public String getName() {
         return name;
     }
@@ -92,4 +98,19 @@ public class Contact implements Serializable {
         this.email = email;
     }
 
+    public String getParserType() {
+        return parserType;
+    }
+
+    public void setParserType(String parserType) {
+        this.parserType = parserType;
+    }
+
+    @Override
+    public String toString() {
+        return "company=" + company
+                + ", name=" + name
+                + ", number=" + number
+                + ", email=" + email;
+    }
 }
